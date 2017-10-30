@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23AD17FE1FA778DE0021FA16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AD17FD1FA778DE0021FA16 /* AppDelegate.swift */; };
+		23AD18001FA778DE0021FA16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AD17FF1FA778DE0021FA16 /* ViewController.swift */; };
+		23AD18021FA778DE0021FA16 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AD18011FA778DE0021FA16 /* Document.swift */; };
+		23AD18051FA778DE0021FA16 /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 23AD18031FA778DE0021FA16 /* Document.xcdatamodeld */; };
+		23AD18071FA778DE0021FA16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23AD18061FA778DE0021FA16 /* Assets.xcassets */; };
+		23AD180A1FA778DE0021FA16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23AD18081FA778DE0021FA16 /* Main.storyboard */; };
+		23AD18161FA778DE0021FA16 /* NodeWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AD18151FA778DE0021FA16 /* NodeWorkTests.swift */; };
+		23AD18211FA778DE0021FA16 /* NodeWorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AD18201FA778DE0021FA16 /* NodeWorkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23AD18121FA778DE0021FA16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23AD17F21FA778DE0021FA16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23AD17F91FA778DE0021FA16;
+			remoteInfo = NodeWork;
+		};
+		23AD181D1FA778DE0021FA16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23AD17F21FA778DE0021FA16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23AD17F91FA778DE0021FA16;
+			remoteInfo = NodeWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23AD17FA1FA778DE0021FA16 /* NodeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NodeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23AD17FD1FA778DE0021FA16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23AD17FF1FA778DE0021FA16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23AD18011FA778DE0021FA16 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		23AD18041FA778DE0021FA16 /* Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Document.xcdatamodel; sourceTree = "<group>"; };
+		23AD18061FA778DE0021FA16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23AD18091FA778DE0021FA16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23AD180B1FA778DE0021FA16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23AD180C1FA778DE0021FA16 /* NodeWork.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NodeWork.entitlements; sourceTree = "<group>"; };
+		23AD18111FA778DE0021FA16 /* NodeWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NodeWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23AD18151FA778DE0021FA16 /* NodeWorkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeWorkTests.swift; sourceTree = "<group>"; };
+		23AD18171FA778DE0021FA16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23AD181C1FA778DE0021FA16 /* NodeWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NodeWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23AD18201FA778DE0021FA16 /* NodeWorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeWorkUITests.swift; sourceTree = "<group>"; };
+		23AD18221FA778DE0021FA16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23AD17F71FA778DE0021FA16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23AD180E1FA778DE0021FA16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23AD18191FA778DE0021FA16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23AD17F11FA778DE0021FA16 = {
+			isa = PBXGroup;
+			children = (
+				23AD17FC1FA778DE0021FA16 /* NodeWork */,
+				23AD18141FA778DE0021FA16 /* NodeWorkTests */,
+				23AD181F1FA778DE0021FA16 /* NodeWorkUITests */,
+				23AD17FB1FA778DE0021FA16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23AD17FB1FA778DE0021FA16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23AD17FA1FA778DE0021FA16 /* NodeWork.app */,
+				23AD18111FA778DE0021FA16 /* NodeWorkTests.xctest */,
+				23AD181C1FA778DE0021FA16 /* NodeWorkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23AD17FC1FA778DE0021FA16 /* NodeWork */ = {
+			isa = PBXGroup;
+			children = (
+				23AD17FD1FA778DE0021FA16 /* AppDelegate.swift */,
+				23AD17FF1FA778DE0021FA16 /* ViewController.swift */,
+				23AD18011FA778DE0021FA16 /* Document.swift */,
+				23AD18061FA778DE0021FA16 /* Assets.xcassets */,
+				23AD18081FA778DE0021FA16 /* Main.storyboard */,
+				23AD180B1FA778DE0021FA16 /* Info.plist */,
+				23AD180C1FA778DE0021FA16 /* NodeWork.entitlements */,
+				23AD18031FA778DE0021FA16 /* Document.xcdatamodeld */,
+			);
+			path = NodeWork;
+			sourceTree = "<group>";
+		};
+		23AD18141FA778DE0021FA16 /* NodeWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				23AD18151FA778DE0021FA16 /* NodeWorkTests.swift */,
+				23AD18171FA778DE0021FA16 /* Info.plist */,
+			);
+			path = NodeWorkTests;
+			sourceTree = "<group>";
+		};
+		23AD181F1FA778DE0021FA16 /* NodeWorkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23AD18201FA778DE0021FA16 /* NodeWorkUITests.swift */,
+				23AD18221FA778DE0021FA16 /* Info.plist */,
+			);
+			path = NodeWorkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23AD17F91FA778DE0021FA16 /* NodeWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23AD18251FA778DE0021FA16 /* Build configuration list for PBXNativeTarget "NodeWork" */;
+			buildPhases = (
+				23AD17F61FA778DE0021FA16 /* Sources */,
+				23AD17F71FA778DE0021FA16 /* Frameworks */,
+				23AD17F81FA778DE0021FA16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NodeWork;
+			productName = NodeWork;
+			productReference = 23AD17FA1FA778DE0021FA16 /* NodeWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23AD18101FA778DE0021FA16 /* NodeWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23AD18281FA778DE0021FA16 /* Build configuration list for PBXNativeTarget "NodeWorkTests" */;
+			buildPhases = (
+				23AD180D1FA778DE0021FA16 /* Sources */,
+				23AD180E1FA778DE0021FA16 /* Frameworks */,
+				23AD180F1FA778DE0021FA16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23AD18131FA778DE0021FA16 /* PBXTargetDependency */,
+			);
+			name = NodeWorkTests;
+			productName = NodeWorkTests;
+			productReference = 23AD18111FA778DE0021FA16 /* NodeWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23AD181B1FA778DE0021FA16 /* NodeWorkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23AD182B1FA778DE0021FA16 /* Build configuration list for PBXNativeTarget "NodeWorkUITests" */;
+			buildPhases = (
+				23AD18181FA778DE0021FA16 /* Sources */,
+				23AD18191FA778DE0021FA16 /* Frameworks */,
+				23AD181A1FA778DE0021FA16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23AD181E1FA778DE0021FA16 /* PBXTargetDependency */,
+			);
+			name = NodeWorkUITests;
+			productName = NodeWorkUITests;
+			productReference = 23AD181C1FA778DE0021FA16 /* NodeWorkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23AD17F21FA778DE0021FA16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Junmo Kang";
+				TargetAttributes = {
+					23AD17F91FA778DE0021FA16 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					23AD18101FA778DE0021FA16 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 23AD17F91FA778DE0021FA16;
+					};
+					23AD181B1FA778DE0021FA16 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 23AD17F91FA778DE0021FA16;
+					};
+				};
+			};
+			buildConfigurationList = 23AD17F51FA778DE0021FA16 /* Build configuration list for PBXProject "NodeWork" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23AD17F11FA778DE0021FA16;
+			productRefGroup = 23AD17FB1FA778DE0021FA16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23AD17F91FA778DE0021FA16 /* NodeWork */,
+				23AD18101FA778DE0021FA16 /* NodeWorkTests */,
+				23AD181B1FA778DE0021FA16 /* NodeWorkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23AD17F81FA778DE0021FA16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23AD18071FA778DE0021FA16 /* Assets.xcassets in Resources */,
+				23AD180A1FA778DE0021FA16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23AD180F1FA778DE0021FA16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23AD181A1FA778DE0021FA16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23AD17F61FA778DE0021FA16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23AD18051FA778DE0021FA16 /* Document.xcdatamodeld in Sources */,
+				23AD18001FA778DE0021FA16 /* ViewController.swift in Sources */,
+				23AD17FE1FA778DE0021FA16 /* AppDelegate.swift in Sources */,
+				23AD18021FA778DE0021FA16 /* Document.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23AD180D1FA778DE0021FA16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23AD18161FA778DE0021FA16 /* NodeWorkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23AD18181FA778DE0021FA16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23AD18211FA778DE0021FA16 /* NodeWorkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23AD18131FA778DE0021FA16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23AD17F91FA778DE0021FA16 /* NodeWork */;
+			targetProxy = 23AD18121FA778DE0021FA16 /* PBXContainerItemProxy */;
+		};
+		23AD181E1FA778DE0021FA16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23AD17F91FA778DE0021FA16 /* NodeWork */;
+			targetProxy = 23AD181D1FA778DE0021FA16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23AD18081FA778DE0021FA16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23AD18091FA778DE0021FA16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23AD18231FA778DE0021FA16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23AD18241FA778DE0021FA16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		23AD18261FA778DE0021FA16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NodeWork/NodeWork.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HZX5ZA887C;
+				INFOPLIST_FILE = NodeWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huzendevhouse.NodeWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		23AD18271FA778DE0021FA16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NodeWork/NodeWork.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HZX5ZA887C;
+				INFOPLIST_FILE = NodeWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huzendevhouse.NodeWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		23AD18291FA778DE0021FA16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HZX5ZA887C;
+				INFOPLIST_FILE = NodeWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huzendevhouse.NodeWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NodeWork.app/Contents/MacOS/NodeWork";
+			};
+			name = Debug;
+		};
+		23AD182A1FA778DE0021FA16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HZX5ZA887C;
+				INFOPLIST_FILE = NodeWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huzendevhouse.NodeWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NodeWork.app/Contents/MacOS/NodeWork";
+			};
+			name = Release;
+		};
+		23AD182C1FA778DE0021FA16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HZX5ZA887C;
+				INFOPLIST_FILE = NodeWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huzendevhouse.NodeWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = NodeWork;
+			};
+			name = Debug;
+		};
+		23AD182D1FA778DE0021FA16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HZX5ZA887C;
+				INFOPLIST_FILE = NodeWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huzendevhouse.NodeWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = NodeWork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23AD17F51FA778DE0021FA16 /* Build configuration list for PBXProject "NodeWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23AD18231FA778DE0021FA16 /* Debug */,
+				23AD18241FA778DE0021FA16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23AD18251FA778DE0021FA16 /* Build configuration list for PBXNativeTarget "NodeWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23AD18261FA778DE0021FA16 /* Debug */,
+				23AD18271FA778DE0021FA16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23AD18281FA778DE0021FA16 /* Build configuration list for PBXNativeTarget "NodeWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23AD18291FA778DE0021FA16 /* Debug */,
+				23AD182A1FA778DE0021FA16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23AD182B1FA778DE0021FA16 /* Build configuration list for PBXNativeTarget "NodeWorkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23AD182C1FA778DE0021FA16 /* Debug */,
+				23AD182D1FA778DE0021FA16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		23AD18031FA778DE0021FA16 /* Document.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				23AD18041FA778DE0021FA16 /* Document.xcdatamodel */,
+			);
+			currentVersion = 23AD18041FA778DE0021FA16 /* Document.xcdatamodel */;
+			path = Document.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 23AD17F21FA778DE0021FA16 /* Project object */;
+}
