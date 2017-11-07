@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		239C1BF21FA8287B00CE65DF /* GraphCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239C1BF11FA8287B00CE65DF /* GraphCanvas.swift */; };
 		23AD17FE1FA778DE0021FA16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AD17FD1FA778DE0021FA16 /* AppDelegate.swift */; };
 		23AD18001FA778DE0021FA16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AD17FF1FA778DE0021FA16 /* ViewController.swift */; };
 		23AD18021FA778DE0021FA16 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AD18011FA778DE0021FA16 /* Document.swift */; };
@@ -15,6 +16,7 @@
 		23AD180A1FA778DE0021FA16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23AD18081FA778DE0021FA16 /* Main.storyboard */; };
 		23AD18161FA778DE0021FA16 /* NodeWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AD18151FA778DE0021FA16 /* NodeWorkTests.swift */; };
 		23AD18211FA778DE0021FA16 /* NodeWorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AD18201FA778DE0021FA16 /* NodeWorkUITests.swift */; };
+		3C185B7F1FB09B60009000E8 /* RulerControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C185B7E1FB09B60009000E8 /* RulerControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		239C1BF11FA8287B00CE65DF /* GraphCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphCanvas.swift; sourceTree = "<group>"; };
 		23AD17FA1FA778DE0021FA16 /* NodeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NodeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23AD17FD1FA778DE0021FA16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23AD17FF1FA778DE0021FA16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +53,7 @@
 		23AD181C1FA778DE0021FA16 /* NodeWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NodeWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23AD18201FA778DE0021FA16 /* NodeWorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeWorkUITests.swift; sourceTree = "<group>"; };
 		23AD18221FA778DE0021FA16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C185B7E1FB09B60009000E8 /* RulerControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulerControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 			children = (
 				23AD17FD1FA778DE0021FA16 /* AppDelegate.swift */,
 				23AD17FF1FA778DE0021FA16 /* ViewController.swift */,
+				239C1BF11FA8287B00CE65DF /* GraphCanvas.swift */,
+				3C185B7E1FB09B60009000E8 /* RulerControl.swift */,
 				23AD18011FA778DE0021FA16 /* Document.swift */,
 				23AD18061FA778DE0021FA16 /* Assets.xcassets */,
 				23AD18081FA778DE0021FA16 /* Main.storyboard */,
@@ -263,9 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				239C1BF21FA8287B00CE65DF /* GraphCanvas.swift in Sources */,
 				23AD18051FA778DE0021FA16 /* Document.xcdatamodeld in Sources */,
 				23AD18001FA778DE0021FA16 /* ViewController.swift in Sources */,
 				23AD17FE1FA778DE0021FA16 /* AppDelegate.swift in Sources */,
+				3C185B7F1FB09B60009000E8 /* RulerControl.swift in Sources */,
 				23AD18021FA778DE0021FA16 /* Document.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
