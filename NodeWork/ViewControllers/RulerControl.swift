@@ -15,10 +15,6 @@ class RulerControl: NSRulerView {
 
         // Drawing code here.
     }
-    
-//    init() {
-//        super.init(scrollView: GraphCanvas.GraphChart, orientation: <#T##NSRulerView.Orientation#>)
-//    }
-//    
+
 
 }

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13533" systemVersion="17B48" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="DataModel">
+    <entity name="Duty" representedClassName="Duty" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="note" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="requiredCondition" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="roleName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="workers" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Humans" inverseName="duty" inverseEntity="Humans" syncable="YES"/>
+    </entity>
+    <entity name="Humans" representedClassName="Human" syncable="YES" codeGenerationType="class">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isWorking" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="onBoard" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="duty" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Duty" inverseName="workers" inverseEntity="Duty" syncable="YES"/>
+        <relationship name="missionLeader" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="NodeWorks" inverseName="jobLeader" inverseEntity="NodeWorks" syncable="YES"/>
+        <relationship name="missionTaken" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="NodeWorks" inverseName="attendee" inverseEntity="NodeWorks" syncable="YES"/>
+        <relationship name="team" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Team" inverseName="members" inverseEntity="Team" syncable="YES"/>
+        <relationship name="teamLeader" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Team" inverseName="supervisor" inverseEntity="Team" syncable="YES"/>
+    </entity>
+    <entity name="NodeWorks" representedClassName="NodeWorks" syncable="YES" codeGenerationType="class">
+        <attribute name="durationDays" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isDone" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isHold" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="assignedTeam" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Team" inverseName="assignedJobs" inverseEntity="Team" syncable="YES"/>
+        <relationship name="attendee" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Humans" inverseName="missionTaken" inverseEntity="Humans" syncable="YES"/>
+        <relationship name="jobLeader" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Humans" inverseName="missionLeader" inverseEntity="Humans" syncable="YES"/>
+        <relationship name="jobNext" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="NodeWorks" inverseName="jobPreceding" inverseEntity="NodeWorks" syncable="YES"/>
+        <relationship name="jobPreceding" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="NodeWorks" inverseName="jobNext" inverseEntity="NodeWorks" syncable="YES"/>
+    </entity>
+    <entity name="Team" representedClassName="Team" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teamEstablished" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="assignedJobs" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="NodeWorks" inverseName="assignedTeam" inverseEntity="NodeWorks" syncable="YES"/>
+        <relationship name="members" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Humans" inverseName="team" inverseEntity="Humans" syncable="YES"/>
+        <relationship name="supervisor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Humans" inverseName="teamLeader" inverseEntity="Humans" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Humans" positionX="54" positionY="-88" width="128" height="223"/>
+        <element name="NodeWorks" positionX="241" positionY="207" width="128" height="223"/>
+        <element name="Team" positionX="405" positionY="50" width="144" height="148"/>
+        <element name="Duty" positionX="7" positionY="243" width="128" height="120"/>
+    </elements>
+</model>

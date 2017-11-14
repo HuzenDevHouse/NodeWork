@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		239C1BF21FA8287B00CE65DF /* GraphCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239C1BF11FA8287B00CE65DF /* GraphCanvas.swift */; };
+		239C1BF21FA8287B00CE65DF /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239C1BF11FA8287B00CE65DF /* GraphView.swift */; };
 		23AD17FE1FA778DE0021FA16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AD17FD1FA778DE0021FA16 /* AppDelegate.swift */; };
 		23AD18001FA778DE0021FA16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AD17FF1FA778DE0021FA16 /* ViewController.swift */; };
 		23AD18021FA778DE0021FA16 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AD18011FA778DE0021FA16 /* Document.swift */; };
-		23AD18051FA778DE0021FA16 /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 23AD18031FA778DE0021FA16 /* Document.xcdatamodeld */; };
 		23AD18071FA778DE0021FA16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23AD18061FA778DE0021FA16 /* Assets.xcassets */; };
 		23AD180A1FA778DE0021FA16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23AD18081FA778DE0021FA16 /* Main.storyboard */; };
 		23AD18161FA778DE0021FA16 /* NodeWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AD18151FA778DE0021FA16 /* NodeWorkTests.swift */; };
 		23AD18211FA778DE0021FA16 /* NodeWorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AD18201FA778DE0021FA16 /* NodeWorkUITests.swift */; };
 		3C185B7F1FB09B60009000E8 /* RulerControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C185B7E1FB09B60009000E8 /* RulerControl.swift */; };
+		3C320A8B1FB1C1B100BD6116 /* NodeWorkModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C320A891FB1C1B100BD6116 /* NodeWorkModel.xcdatamodeld */; };
+		3CEBC4951FBAEB6E00A5D028 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEBC4941FBAEB6E00A5D028 /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		239C1BF11FA8287B00CE65DF /* GraphCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphCanvas.swift; sourceTree = "<group>"; };
+		239C1BF11FA8287B00CE65DF /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 		23AD17FA1FA778DE0021FA16 /* NodeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NodeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23AD17FD1FA778DE0021FA16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23AD17FF1FA778DE0021FA16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		23AD18011FA778DE0021FA16 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
-		23AD18041FA778DE0021FA16 /* Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Document.xcdatamodel; sourceTree = "<group>"; };
 		23AD18061FA778DE0021FA16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23AD18091FA778DE0021FA16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23AD180B1FA778DE0021FA16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +54,8 @@
 		23AD18201FA778DE0021FA16 /* NodeWorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeWorkUITests.swift; sourceTree = "<group>"; };
 		23AD18221FA778DE0021FA16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C185B7E1FB09B60009000E8 /* RulerControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulerControl.swift; sourceTree = "<group>"; };
+		3C320A8A1FB1C1B100BD6116 /* NodeWorkModel.xcdatamodel */ = {isa = PBXFileReference; explicitFileType = wrapper.xcdatamodel; path = NodeWorkModel.xcdatamodel; sourceTree = "<group>"; };
+		3CEBC4941FBAEB6E00A5D028 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,15 +107,12 @@
 			isa = PBXGroup;
 			children = (
 				23AD17FD1FA778DE0021FA16 /* AppDelegate.swift */,
-				23AD17FF1FA778DE0021FA16 /* ViewController.swift */,
-				239C1BF11FA8287B00CE65DF /* GraphCanvas.swift */,
-				3C185B7E1FB09B60009000E8 /* RulerControl.swift */,
-				23AD18011FA778DE0021FA16 /* Document.swift */,
-				23AD18061FA778DE0021FA16 /* Assets.xcassets */,
 				23AD18081FA778DE0021FA16 /* Main.storyboard */,
-				23AD180B1FA778DE0021FA16 /* Info.plist */,
+				3CEBC4961FBAEB7C00A5D028 /* ViewControllers */,
+				3CEBC4971FBAEB9600A5D028 /* DataContollers */,
+				23AD18061FA778DE0021FA16 /* Assets.xcassets */,
 				23AD180C1FA778DE0021FA16 /* NodeWork.entitlements */,
-				23AD18031FA778DE0021FA16 /* Document.xcdatamodeld */,
+				23AD180B1FA778DE0021FA16 /* Info.plist */,
 			);
 			path = NodeWork;
 			sourceTree = "<group>";
@@ -134,6 +133,26 @@
 				23AD18221FA778DE0021FA16 /* Info.plist */,
 			);
 			path = NodeWorkUITests;
+			sourceTree = "<group>";
+		};
+		3CEBC4961FBAEB7C00A5D028 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				239C1BF11FA8287B00CE65DF /* GraphView.swift */,
+				23AD17FF1FA778DE0021FA16 /* ViewController.swift */,
+				3C185B7E1FB09B60009000E8 /* RulerControl.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3CEBC4971FBAEB9600A5D028 /* DataContollers */ = {
+			isa = PBXGroup;
+			children = (
+				3C320A891FB1C1B100BD6116 /* NodeWorkModel.xcdatamodeld */,
+				23AD18011FA778DE0021FA16 /* Document.swift */,
+				3CEBC4941FBAEB6E00A5D028 /* DataController.swift */,
+			);
+			path = DataContollers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,10 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				239C1BF21FA8287B00CE65DF /* GraphCanvas.swift in Sources */,
-				23AD18051FA778DE0021FA16 /* Document.xcdatamodeld in Sources */,
+				3CEBC4951FBAEB6E00A5D028 /* DataController.swift in Sources */,
+				239C1BF21FA8287B00CE65DF /* GraphView.swift in Sources */,
 				23AD18001FA778DE0021FA16 /* ViewController.swift in Sources */,
 				23AD17FE1FA778DE0021FA16 /* AppDelegate.swift in Sources */,
+				3C320A8B1FB1C1B100BD6116 /* NodeWorkModel.xcdatamodeld in Sources */,
 				3C185B7F1FB09B60009000E8 /* RulerControl.swift in Sources */,
 				23AD18021FA778DE0021FA16 /* Document.swift in Sources */,
 			);
@@ -437,6 +457,7 @@
 				DEVELOPMENT_TEAM = HZX5ZA887C;
 				INFOPLIST_FILE = NodeWork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = huzendevhouse.NodeWork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -453,6 +474,7 @@
 				DEVELOPMENT_TEAM = HZX5ZA887C;
 				INFOPLIST_FILE = NodeWork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = huzendevhouse.NodeWork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -567,13 +589,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		23AD18031FA778DE0021FA16 /* Document.xcdatamodeld */ = {
+		3C320A891FB1C1B100BD6116 /* NodeWorkModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				23AD18041FA778DE0021FA16 /* Document.xcdatamodel */,
+				3C320A8A1FB1C1B100BD6116 /* NodeWorkModel.xcdatamodel */,
 			);
-			currentVersion = 23AD18041FA778DE0021FA16 /* Document.xcdatamodel */;
-			path = Document.xcdatamodeld;
+			currentVersion = 3C320A8A1FB1C1B100BD6116 /* NodeWorkModel.xcdatamodel */;
+			path = NodeWorkModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

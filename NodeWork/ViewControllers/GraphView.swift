@@ -10,16 +10,21 @@ import Cocoa
 
 class GraphCanvas: NSViewController {
     
-    @IBOutlet weak var GraphTable: NSTableView!
-    
-    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        
         
     }
 
+}
+
+class GraphTable: NSTableView {
+
+    
+    
 }
 
 class GraphChart: NSScrollView {
